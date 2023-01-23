@@ -1,0 +1,67 @@
+@import url('https://fonts.cdnfonts.com/css/bogista'); 
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+@page {
+    size: A4;
+    margin: 10%;
+  }
+
+body {
+    background-color: #FDFDFC;
+}
+
+.Title {
+    font-family: 'Bogista', sans-serif; 
+    text-align: center;
+    font-size: 60px;
+    color: #323232;
+}
+
+.paragraph {
+   font-family: 'Playfair Display', serif;
+   font-size: 16px;
+   margin: auto;
+   width: 35%;
+   text-align: center;
+}
+
+.index {
+    margin: auto;
+    width: 35%;
+    text-align: justify;
+}
+
+.index a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #323232;
+    font-family: 'Playfair Display', serif;
+}
+
+.page {
+   color: #d9d9d9;
+   text-decoration: none;
+   font-size: 13px;
+}
+
+@media screen and (max-width: 500px) {
+    .Title {
+        font-family: 'Bogista', sans-serif; 
+        text-align: center;
+        font-size: 40px;
+        color: #323232;
+    }
+
+    .index {
+        text-align: center;
+        font-size: 14px;
+    }
+    .paragraph {
+        font-family: 'Playfair Display', serif;
+        font-size: 12px;
+        margin: auto;
+        width: 80%;
+        text-align: center;
+     }
+    }
