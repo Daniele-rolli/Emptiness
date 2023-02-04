@@ -1,7 +1,6 @@
 /* Style the navigation bar */
 .navbar {
     width: 100%;
-    background-color: #ffffff;
     overflow: auto;
     display: flex;
     justify-content: center;
